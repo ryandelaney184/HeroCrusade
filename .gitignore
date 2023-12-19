@@ -1,0 +1,20 @@
+.idea
+build
+
+libraries/*
+!*libraries/ADD LIBRARIES HERER.txt
+
+cmake-build-debug-visual-studio-x64-opengl
+cmake-build-debug-visual-studio-x64-vulkan
+cmake-build-debug-visual-studio-x64-vulkan-vr
+cmake-build-debug-visual-studio-x86-opengl
+cmake-build-debug-visual-studio-x86-vulkan
+cmake-build-debug-visual-studio-x86-vulkan-vr
+cmake-build-release-visual-studio-x64-opengl
+cmake-build-release-visual-studio-x64-vulkan
+cmake-build-release-visual-studio-x64-vulkan-vr
+cmake-build-release-visual-studio-x86-opengl
+cmake-build-release-visual-studio-x86-vulkan
+cmake-build-release-visual-studio-x86-vulkan-vr
+cmake-build-relwithdebinfo-visual-studio-x86
+DLL
