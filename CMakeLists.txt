@@ -372,8 +372,9 @@ if (${WIN32})
         else ()
             file(GLOB_RECURSE VR_DLL "${OPENVR_ROOT_DIR}/bin/win64/*.dll")
         endif ()
-
+        list(APPEND DLL ${VR_DLL})
     endif ()
+
     add_custom_command(
             TARGET ${PROJECT_NAME} POST_BUILD
             COMMAND ${CMAKE_COMMAND} -E copy
